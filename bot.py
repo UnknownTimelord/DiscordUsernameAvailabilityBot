@@ -9,7 +9,7 @@ async def send_message(message, user_message):
         print(e)
 
 def run_discord_bot():
-    TOKEN = ''
+    TOKEN = '' # Removed this for obvious reasons. Make your own Application and Bot here: https://discord.com/developers/applications
 
     intents = discord.Intents.default()
     intents.message_content = True
